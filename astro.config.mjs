@@ -11,5 +11,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), image(), tailwind()]
+    integrations: [react(), image(), tailwind()],
+    site: "https://luisbetancourt.dev",
 });
